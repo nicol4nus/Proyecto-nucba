@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mi Tienda Online</h1>
+    <button id="menu-btn">☰</button>
+    <nav id="menu">
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#carrito">Carrito 🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Bienvenido a nuestra tienda</h2>
+    <p>Los mejores productos para vos</p>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una tienda que vende cosas copadas</p>
+  </section>
+
+  <section id="productos">
+    <h2>Productos</h2>
+    <div id="filtros"></div>
+    <div id="lista-productos"></div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu email" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+  </section>
+
+  <section id="carrito">
+    <h2>Carrito</h2>
+    <ul id="lista-carrito"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mi Tienda Online</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
